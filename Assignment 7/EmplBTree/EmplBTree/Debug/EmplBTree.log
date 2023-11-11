@@ -1,0 +1,47 @@
+﻿  EmplBTree.cpp
+c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(83): error C2440: '=': cannot convert from 'T' to 'int'
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(83): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(78): note: while compiling class template member function 'void BinaryTree<EmployeeInfo>::insertNode(T)'
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\emplbtree.cpp(31): note: see reference to function template instantiation 'void BinaryTree<EmployeeInfo>::insertNode(T)' being compiled
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\emplbtree.cpp(28): note: see reference to class template instantiation 'BinaryTree<EmployeeInfo>' being compiled
+c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(110): error C2440: '=': cannot convert from 'T' to 'int'
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(110): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(105): note: while compiling class template member function 'bool BinaryTree<EmployeeInfo>::searchNode(T)'
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\emplbtree.cpp(89): note: see reference to function template instantiation 'bool BinaryTree<EmployeeInfo>::searchNode(T)' being compiled
+          with
+          [
+              T=EmployeeInfo
+          ]
+c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(112): error C2678: binary '<': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=EmployeeInfo
+          ]
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\employeeinfo.h(34): note: could be 'bool EmployeeInfo::operator <(EmployeeInfo &) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\system_error(319): note: or       'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\system_error(312): note: or       'bool std::operator <(const std::error_code &,const std::error_code &) noexcept'
+  c:\users\anc\desktop\programming iii\assignment 7\emplbtree\emplbtree\binarytree.h(112): note: while trying to match the argument list '(T, int)'
+          with
+          [
+              T=EmployeeInfo
+          ]
